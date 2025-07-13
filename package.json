@@ -1,5 +1,5 @@
 {
-  "name": "increment",
+  "name": "unit-increment",
   "version": "1.0.0",
   "description": "Increment a number by its lowest precision value or a custom increment.",
   "main": "dist/index.js",
@@ -13,6 +13,7 @@
     "dist"
   ],
   "keywords": [
+    "unit-increment",
     "increment",
     "precision",
     "number",
@@ -24,5 +25,17 @@
   "devDependencies": {
     "typescript": "^5.8.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "npm": "^11.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NgoTanw/unit-increment.git"
+  },
+  "author": "NgoTanw",
+  "bugs": {
+    "url": "https://github.com/NgoTanw/unit-increment/issues"
+  },
+  "homepage": "https://github.com/NgoTanw/unit-increment#readme"
 }
