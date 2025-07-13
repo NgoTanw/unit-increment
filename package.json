@@ -1,0 +1,28 @@
+{
+  "name": "increment",
+  "version": "1.0.0",
+  "description": "Increment a number by its lowest precision value or a custom increment.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "tsc && node dist/test.js"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "increment",
+    "precision",
+    "number",
+    "math",
+    "utility",
+    "float",
+    "integer"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT"
+}
